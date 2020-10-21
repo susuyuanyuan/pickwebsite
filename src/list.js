@@ -94,6 +94,7 @@ class List extends Component {
                         <p className="add-notes">a New Popular Website</p>
                         {add ? <div>{this.renderAddWeb()}</div> : null}
                     </div>
+                    <p>test</p>
                 </div>
             </div>
         );
