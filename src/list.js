@@ -94,7 +94,6 @@ class List extends Component {
                         <p className="add-notes">a New Popular Website</p>
                         {add ? <div>{this.renderAddWeb()}</div> : null}
                     </div>
-                    <p>test</p>
                 </div>
             </div>
         );
@@ -102,33 +101,3 @@ class List extends Component {
 }
 
 export default List;
-
-/*
-<div>
-                        <label>
-                            Website:
-                            <input
-                                type="text"
-                                onChange={e => this.setState({ web: e.target.value })}
-                            />
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                            URL:
-                            <input
-                                type="text"
-                                onChange={e => this.setState({ url: e.target.value })}
-                            />
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                            Description:
-                            <input
-                                type="text"
-                                onChange={e => this.setState({ description: e.target.value })}
-                            />
-                        </label>
-                    </div>
-*/

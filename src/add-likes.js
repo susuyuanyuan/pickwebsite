@@ -15,8 +15,8 @@ const ROW = ({ web, url, description, like, dislike }) => {
             </td>
             <td onClick={e => setDislikes(dislikes + 1)}>
                 <button className="small-button">
-                    <i className="fas fa-plus" style={{ "color": "#373a40" }}></i>&nbsp;
-                    <i className="far fa-frown" style={{ "color": "#373a40" }}></i>
+                    <i className="fas fa-plus" style={{ "color": "#54BAB9" }}></i>&nbsp;
+                    <i className="far fa-frown" style={{ "color": "#54BAB9" }}></i>
                 </button>&nbsp;{dislikes}
             </td>
             <td>
